@@ -2,9 +2,11 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
+
 android {
     namespace = "com.smooth60"
     compileSdk = 35
+
     defaultConfig {
         applicationId = "com.smooth60"
         minSdk = 29
